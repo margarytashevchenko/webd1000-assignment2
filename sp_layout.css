@@ -26,9 +26,20 @@ body{
    margin-right: auto;
    height: 100%;
 }
-
+img{
+   display: block;
+}
 
 /* CSS Grid Styles */
+body{
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+
+}
+img#logo{
+   grid-column: span 3;
+
+}
 
 
 
