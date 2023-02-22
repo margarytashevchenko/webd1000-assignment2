@@ -47,11 +47,24 @@ img#logo{
 
 
 /* Horizontal Navigation List Styles */
-
+nav.horizontal, footer{
+   grid-column: span 4;
+}
+aside{
+   grid-column: span 2;
+}
+nav.horizontal li{
+   display: block;
+   width: 12.5%;
+   float: left;
+}
 
 
 /* Section Styles */
-
+section img{
+   width: 50%;
+   margin: 0 auto 0 auto;
+}
 
 
 
