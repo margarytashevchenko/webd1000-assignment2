@@ -72,3 +72,15 @@ aside{
    width: 75%;
    padding-bottom: 30px;
 }
+aside:nth-last-of-type(odd){
+   justify-self: right;
+}
+aside img{
+   float: left;
+   width: 20%;
+}
+aside p{
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+}
