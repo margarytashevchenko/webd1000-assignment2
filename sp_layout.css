@@ -24,7 +24,7 @@ body{
    max-width: 960px;
    margin-left: auto;
    margin-right: auto;
-   height: 100%;
+   min-height: 100%;
 }
 img{
    display: block;
@@ -40,10 +40,6 @@ img#logo{
    grid-column: span 3;
 
 }
-
-
-
-
 
 
 /* Horizontal Navigation List Styles */
@@ -65,8 +61,14 @@ section img{
    width: 50%;
    margin: 0 auto 0 auto;
 }
-
+section p{
+   width: 70%;
+   margin: 0 auto 0 auto;
+}
 
 
 /* Customer Comment Styles */
-
+aside{
+   width: 75%;
+   padding-bottom: 30px;
+}
